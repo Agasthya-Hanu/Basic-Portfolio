@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+  background: #020617;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.btn {
+  background: #38bdf8;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* SECTIONS */
+section {
+  padding: 50px 20px;
+  text-align: center;
+  hover
+}
+
+/* PROJECTS */
+.project {
+  background: #1e293b;
+  margin: 15px auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+#skills p, #certificates p, #achievements p {
+  background: #1e293b;
+  margin: 10px auto;
+  padding: 10px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+/* PROJECT CARD UPGRADE */
+.project {
+  background: #1e293b;
+  margin: 20px auto;
+  padding: 15px;
+  width: 300px;
+  border-radius: 12px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.project a {
+  display: inline-block;
+  margin: 8px;
+  padding: 6px 10px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #38bdf8;
+  color: black;
+}
+
+a:hover {
+  color: #38bdf8;
+}
+
+#about,
+#skills,
+.project {
+  transition: transform 0.3s ease;
+}
+
+#about:hover,
+#skills:hover,
+.project:hover,
+#certificates:hover,
+#achievements:hover ,
+#contact:hover {
+  transform: scale(1.05);
+}
+
+#about p {
+  background: #1e293b;
+  margin: 20px auto;
+  padding: 15px;
+  width: 500px;
+  border-radius: 1px;
+}
