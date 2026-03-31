@@ -13,7 +13,6 @@ This portfolio is designed to present my work in a clean and professional way. I
 
 * HTML5
 * CSS3
-* JavaScript
 
 ## ✨ Features
 
